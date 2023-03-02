@@ -92,7 +92,8 @@ h6 {
 body {
 	margin: 0 auto 0 auto;
 	width: 1440px;
-	font-family: 'Roboto';
+	font-family: "Roboto", sans-serif;
+	color: #434455;
 }
 
 /* Header */
@@ -117,8 +118,10 @@ header>address {
 .title {
 	text-transform: uppercase;
 	font-family: 'Raleway';
-	color: #2E2F42;
-	font-size: 24px;
+	font-weight: 800;
+	color: #4d5ae5;
+	font-size: 18px;
+	letter-spacing: 0.03em;
 	margin: 24px 76px 24px 156px;
 }
 
@@ -134,6 +137,7 @@ header>address {
 .header-nav-li {
 	font-weight: 500;
 	font-size: 16px;
+	color: #2E2F42;
 	margin: 0 40px 0 0;
 }
 
